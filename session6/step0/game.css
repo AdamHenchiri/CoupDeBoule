@@ -1,0 +1,96 @@
+#gameHUD {
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    z-index: 100;
+    /* Assurez-vous que le HUD est au-dessus des autres éléments du jeu */
+    color: rgb(83, 10, 10);
+    font-family: 'Montserat', sans-serif;
+}
+
+#gameOver {
+    position: relative;
+    top: 250px;
+    left: 250px;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: red;
+    background-color: black;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-family: 'Montserat', sans-serif;
+}
+
+#Win{
+    position: relative;
+    top: 250px;
+    left: 250px;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: green;
+    background-color: black;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-family: 'Montserat', sans-serif;
+}
+
+#playAgain {
+    position: relative;
+    top: 250px;
+    left: 250px;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+#potions {
+    display: flex;
+    flex-direction: row;
+}
+
+#score {
+    position: absolute;
+    left: 150px;
+    align-items: center;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'Montserat', sans-serif;
+}
+
+h1 {
+    font-size: 100px;
+    background: -webkit-linear-gradient(#00faa3, #0080ff, #1100fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Montserat', sans-serif;
+}
+
+body{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#addBall{
+    position: absolute;
+    top: 525px;
+    left: 170px;
+    z-index: 100;
+    /* Assurez-vous que le HUD est au-dessus des autres éléments du jeu */
+    color: rgb(17, 0, 250);
+    font-family: 'Montserat', sans-serif;
+    font-size: 14px;
+    background-color: black;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
